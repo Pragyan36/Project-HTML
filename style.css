@@ -1,0 +1,390 @@
+.whole{
+    background-color:rgb(255, 255, 255); 
+    width: 1500px; 
+    height: 2960px;
+}
+.LN{
+    background-color:rgb(191, 201, 50);
+    width: 1500px; 
+    height: 50px;
+    position:fixed;
+    top: 0px;
+
+    
+}
+.logo{
+    background-color:rgb(50, 201, 163);
+    width: 300px; 
+    height: 50px;
+    float: left;
+}
+.photo{
+    width: 300px;
+    height:50px;
+
+
+}
+.nav{
+    background-color:rgb(255, 255, 255);
+    float: right;
+    width: 1200px; 
+    height: 50px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navlist{
+    margin-right: 130px ;
+    color: rgb(0, 0, 0);
+    font-style:normal;
+    font-size:  20px;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+.navlist:hover{
+    position: relative;
+}
+.navlist:hover::after{
+    position : absolute;
+    content:"";
+    width :100%;
+    height: 0.18rem;
+    left:0;
+    top: 2rem;
+    background-color: rgb(238, 20, 20);
+}
+.TL{
+   
+    background-color: coral;
+    width: 1500px;
+    height: 700px;
+
+    
+}
+.To{
+    background-color:rgb(255, 255, 255);
+    float: left;
+    width: 700px;
+    height:700px ;
+}
+.Tt{
+    background-color: rgb(255, 255, 255);
+    float:right;
+    width: 800px;
+    height: 700px;
+}
+.Pic{
+    background-color:rgb(255, 255, 255);
+    width: 800px;
+    height: 700px;
+}
+.Photo{
+    height: 600px;
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+
+
+}
+.Name{
+    background-color: rgb(255, 255, 255);
+    margin-top:65px ;
+    margin-left: 90px;
+    width: 500px;
+    height: 500px;
+    
+
+}
+p{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font: 50px;
+    line-height: 1.5em;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.pragyan{
+    color: blue;
+}
+.social{
+    background-color: rgb(255, 255, 255);
+    margin-top: 150px;
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+}
+.linkedin{
+    width:50px;
+    height:30px;
+    margin-left:12px;
+    margin-top: 10px;
+}
+.facebook{
+    width:50px;
+    height:30px;
+    margin-left:12px;
+    margin-top: 10px;
+}
+.instagram{
+    width:50px;
+    height:30px;
+    margin-left:12px;
+    margin-top: 10px;
+}
+.contact1{
+    display: inline-block;
+    background-color:rgb(13, 16, 148) ;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: .5rem;
+    text-decoration: none;
+}
+.contact1:hover{
+    background-color: mediumpurple;
+}
+.About{
+    background-color: blue;
+    width:1500px;
+    height: 700px;
+   
+}
+.A1{
+    background-color: rgb(255, 255, 255);
+    width:700px;
+    height:700px;
+    float:left;
+}
+.A2{
+    background-color: rgb(255, 255, 255);
+    width:800px;
+    height:700px;
+    float: right;
+}
+.ap{
+    width: 500px;
+    height: 500px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.h{
+    text-align: center;
+    color: rgb(211, 85, 85);
+}
+.Skills{
+    width:1500px;
+    height: 700px;
+    background-color: darkkhaki;
+}
+.topic{
+    width:1500px;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+}
+.ts{
+    width:700px;
+    height: 625px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.ss{
+    width: 800px;
+    height: 625px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+}
+.top{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 50px;
+
+}
+.ts1{
+    background-color: linen;
+    width:700px;
+    height: 50px;
+    margin-top: 0px;
+
+}
+.ts2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 0px;
+}
+.ss1{
+    background-color: violet;
+    width: 800px;
+    height: 50px;
+}
+.ss2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 0px;
+}
+.contact{
+    background-color: rgb(22, 0, 0);
+    width: 1500px;
+    height: 700px;
+    margin-top: 0px;
+}
+.Ctopic{
+    width:1500px;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+}
+.Ct1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    top: 0px;
+
+    font-size: 50px;
+
+}
+.ediv{
+    background-color: rgb(255, 255, 255);
+    width:1500px ;
+    height:625px;
+
+}
+.frm{
+    background-color: rgb(255, 255, 255);
+    width:500px ;
+    height:625px;
+    float: left;
+}
+.frm1{
+    background-color: rgb(255, 255, 255);
+    width:1000px ;
+    height:625px;
+    float: Right;
+}
+.form{
+    background-color: rgb(255, 255, 255);
+    width:500px ;
+    height:625px;
+    margin-left: 150px;
+
+
+}
+.contact_input{
+    width:250px;
+    margin-left: 100px;
+    margin-top: 30px;
+
+    font-size: 20px;
+    font-weight:normal;
+    padding: 1rem;
+    border-radius: .5rem;
+
+
+}
+
+.message{
+    width:250px;
+    margin-left: 100px;
+    margin-top:40px ;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-size: 20px;
+    font-weight: normal;
+
+}
+.contact_button{
+    display: block;
+    border:none;
+    outline:none;
+    font-size: normal;
+    cursor: pointer;
+    margin-left:220px;   
+    padding: 10px; 
+    color: rgb(0, 0, 0);
+    background-color: violet;
+    border-radius: .5rem;
+}
+.frm2{
+    background-color: rgb(255, 255, 255);
+    width:400px;
+    height:500px;
+    margin-left: 50px;
+    margin-top: 0px;
+    font-size: 20px;
+    line-height: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.footer{
+    background-color: rgb(195, 224, 63);
+    width:1500px;
+    height:150px;
+}
+.namm{
+    background-color: rgb(175, 172, 219);
+    width:1500px;
+    height:50px;
+}
+.nam{
+    background-color: rgb(195, 224, 63);
+    width:1500px;
+    height:50px;
+}
+.nam1{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+}
+.loo{
+    background-color:rgb(195, 224, 63);
+    width:200px;
+    height: 50px;
+    margin-left: 650px;
+}
+.linkedin1{
+    width:50px;
+    height:30px;
+    margin-left:12px;
+    margin-top: 0px;
+    color: whitesmoke;
+}
+.facebook2{
+    width:50px;
+    height:30px;
+    margin-left:12px;
+    margin-top: 0px;
+}
+.instagram3{
+    width:50px;
+    height:30px;
+    margin-left:12px;
+    margin-top: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.write{
+    font-size: 25px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+
+}
+.li1{
+    background-color: rgb(123, 121, 245);
+    font-size: 20px;
+    width;80px;
+    height:40px;
+    margin-right:80px;
+    margin-top:10px;
+    border-radius:90px;
+    margin-left:80px;
+    text-align:center;
+
+}
